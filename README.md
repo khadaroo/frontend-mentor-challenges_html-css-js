@@ -14,7 +14,7 @@ This is my solution to the [Testimonials grid section challenge on Frontend Ment
 ## Links
 
 - Solution URL: [https://github.com/khadaroo/testimonials-grid-section](https://github.com/khadaroo/testimonials-grid-section)
-- Live Site URL: [Live Site](https://testimonial-grid-section-khadaro.vercel.app)
+- Live Site URL: [https://testimonials-grid-section-khadaro.vercel.app](https://testimonials-grid-section-khadaro.vercel.app/)
 
 ## Built with
 
