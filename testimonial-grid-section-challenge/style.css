@@ -25,7 +25,7 @@ body {
 }
 
 .testimonial {
-  max-width: 1110px;
+  max-width: 70em;
   margin-inline: auto;
 
   display: grid;
