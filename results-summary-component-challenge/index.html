@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Results summary component</title>
+  </head>
+  <body>
+    <main class="app">
+      <section class="result">
+        <h2 class="result__title">Your Result</h2>
+        <div class="result__stats">
+          <p class="result__score">76</p>
+          <p class="result__total-score">of 100</p>
+        </div>
+        <div class="result-info">
+          <h3 class="result__grade">Great</h3>
+          <p class="result__grade-description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </section>
+      <section class="summary">
+        <h2 class="summary__title">Summary</h2>
+        <ul class="summary__categories">
+          <li class="summary__category">
+            <div class="summary__category-article">
+              <img
+                class="summary__category-icon"
+                src="./assets/images/icon-reaction.svg"
+                alt="rection icon"
+              />
+              <p class="summary__category-name">Reaction</p>
+            </div>
+            <div class="summary__category-result">
+              <p class="summary__category-score">80</p>
+              <p class="summary__category-total-score">/ 100</p>
+            </div>
+          </li>
+
+          <li class="summary__category">
+            <div class="summary__category-article">
+              <img
+                class="summary__category-icon"
+                src="./assets/images/icon-memory.svg"
+                alt="memory icon"
+              />
+              <p class="summary__category-name">Memory</p>
+            </div>
+            <div class="summary__category-result">
+              <p class="summary__category-score">92</p>
+              <p class="summary__category-total-score">/ 100</p>
+            </div>
+          </li>
+
+          <li class="summary__category">
+            <div class="summary__category-article">
+              <img
+                class="summary__category-icon"
+                src="./assets/images/icon-verbal.svg"
+                alt="Verbal icon"
+              />
+              <p class="summary__category-name">Verbal</p>
+            </div>
+            <div class="summary__category-result">
+              <p class="summary__category-score">61</p>
+              <p class="summary__category-total-score">/ 100</p>
+            </div>
+          </li>
+
+          <li class="summary__category">
+            <div class="summary__category-article">
+              <img
+                class="summary__category-icon"
+                src="./assets/images/icon-visual.svg"
+                alt="Visual icon"
+              />
+              <p class="summary__category-name">Visual</p>
+            </div>
+            <div class="summary__category-result">
+              <p class="summary__category-score">73</p>
+              <p class="summary__category-total-score">/ 100</p>
+            </div>
+          </li>
+        </ul>
+        <button class="btn">Continue</button>
+      </section>
+    </main>
+  </body>
+</html>
